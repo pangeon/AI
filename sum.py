@@ -2,9 +2,9 @@ def sum(t):
     sum = 0
 
     for i in t:
-        sum += int(i)
+        sum += i
 
     return sum
 
-t = input("Enter number values: ").split(",")
-print("sum:", sum(t))
+# t = input("Enter number values: ").split(",")
+# print("sum:", sum(t))

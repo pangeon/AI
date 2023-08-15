@@ -3,10 +3,10 @@ def mean(t):
     n = 0
 
     for i in t:
-        sum += int(i)
+        sum += i
         n += 1
 
     return sum / n
 
-t = input("Enter number values: ").split(",")
-print("mean:", mean(t))
+# t = input("Enter number values: ").split(",")
+# print("mean:", mean(t))
